@@ -1,6 +1,6 @@
 {
   "name": "ember-unpodify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "bin": {
     "unpodify": "bin/ember-unpodify"
   },
