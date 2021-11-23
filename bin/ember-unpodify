@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
+const unpodify = require('../unpodify');
+
+unpodify();
