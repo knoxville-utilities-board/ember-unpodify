@@ -1,0 +1,11 @@
+{
+  "name": "ember-unpodify",
+  "version": "0.0.1",
+  "bin": {
+    "unpodify": "bin/ember-unpodify"
+  },
+  "main": "unpodify.js",
+  "dependencies": {
+    "walk-sync": "3.0.0"
+  }
+}
