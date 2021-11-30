@@ -1,8 +1,8 @@
 {
   "name": "ember-unpodify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
-    "unpodify": "bin/ember-unpodify"
+    "ember-unpodify": "bin/ember-unpodify"
   },
   "main": "unpodify.js",
   "dependencies": {
