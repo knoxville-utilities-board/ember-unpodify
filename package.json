@@ -1,6 +1,20 @@
 {
   "name": "ember-unpodify",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "Migrate from ember pods structure to classic structure",
+  "keywords": [
+    "ember",
+    "pods"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knoxville-utilities-board/ember-unpodify"
+  },
+  "engines": {
+    "node": "12.* || 14.* || >= 16"
+  },
+  "license": "MIT",
+  "author": "",
   "bin": {
     "ember-unpodify": "bin/ember-unpodify"
   },
