@@ -4,6 +4,7 @@ var {
   getUnpodifiedState,
   walkPaths,
 } = require('./helpers');
+const fs = require('fs');
 
 function handleTemplates() {
   for (const path of walkPaths('template.hbs')) {
