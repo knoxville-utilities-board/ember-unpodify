@@ -33,11 +33,3 @@ Using `npx` you can run the script without installing it first:
 ```
 
 **Note:** This must be run from the root of an ember app or addon.
-
-## Known Issues
-
-This app will not rewrite the contents of any file.
-
-This means any imports that references moved files will be broken.
-
-Most prominently, all classic components in an addon will have their template imports broken as the paths have changed.
