@@ -20,10 +20,10 @@ Using `npx` you can run the script without installing it first:
     npx ember-unpodify
 ```
 
-#### Using `npm`
+#### Using `pnpm`
 
 ```shell
-    npm install --global ember-unpodify
+    pnpm install --global ember-unpodify
 ```
 
 ## Usage:

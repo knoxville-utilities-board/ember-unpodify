@@ -41,7 +41,7 @@ function unpodifyImports(path, parentFolder, unpodified) {
   data = unpodifyComponentImports(data, appName);
   data = unpodifyComponentTemplateImports(data, appName);
   const types = ['adapter', 'model', 'route', 'serializer', 'service', 'transform', 'initializer', 'instance-initializer', 'controller'];
-  for (type of types) {
+  for (const type of types) {
     data = unpodifyImportsByType(data, appName, type);
   }
   fs.writeFileSync(path, data, 'utf8');
@@ -82,7 +82,7 @@ function unpodifyTestImports(path) {
   let data = fs.readFileSync(path, 'utf8');
   const appName = getWorkingDirectoryName();
   const types = ['adapter', 'model', 'route', 'serializer', 'service', 'transform', 'initializer', 'instance-initializer', 'controller'];
-  for (type of types) {
+  for (const type of types) {
     data = unpodifyImportsByType(data, appName, type);
   }
   fs.writeFileSync(path, data, 'utf8');
