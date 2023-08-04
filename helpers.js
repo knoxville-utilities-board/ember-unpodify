@@ -93,9 +93,14 @@ function removeEmptyFolders(folder) {
   }
 }
 
+function getWorkingDirectoryName() {
+  return pathModule.basename(process.cwd());
+}
+
 module.exports = {
   removeEmptyFolders,
   renameFile,
   getUnpodifiedState,
   walkPaths,
+  getWorkingDirectoryName,
 };
