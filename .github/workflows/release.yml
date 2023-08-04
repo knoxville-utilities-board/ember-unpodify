@@ -24,10 +24,10 @@ jobs:
           path: |
             node_modules
             */*/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-release
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-release
 
       - name: Install Dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Publish to NPM
         uses: JS-DevTools/npm-publish@v1
